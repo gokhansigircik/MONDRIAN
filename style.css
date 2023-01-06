@@ -1,0 +1,102 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: white;
+}
+#canvas {
+  height: 600px;
+  width: 500px;
+  background-color: black;
+  border: 8px solid whitesmoke;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin: 10px auto;
+}
+#topBox {
+  height: 70%;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+
+}
+#topleft {
+  height: 100%;
+  width: 75%;
+  background-color: red;
+  /* display: flex;
+  justify-content: space-between;
+  flex-direction: column; */
+  
+}
+#topwhitecornerup {
+  height: 47%;
+  width: 100%;
+  background-color: white;
+}
+#topwhitecornerdown {
+  height: 47%;
+  width: 100%;
+  background-color: white;
+}
+
+#topright {
+  height: 100%;
+  width: 20%;
+  /* background-color: white; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#bottomBox {
+  height: 27%;
+  width: 100%;
+  /* background-color: orange; */
+  display: flex;
+  justify-content: space-between;
+
+
+}
+#bottomleft {
+  height: 100%;
+  width: 75%;
+  /* background-color: white; */
+  display: flex;
+  justify-content: space-between;
+}
+
+#bottomright {
+  height: 100%;
+  width: 20%;
+  background-color: #2962ff;
+}
+
+#leftcornerright {
+  background-color: white;
+  height: 100%;
+  width: 80%;
+}
+#leftcornerleft {
+  /* background-color: orange; */
+  height: 100%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#bottomleftup {
+  height: 47%;
+  width: 100%;
+  background-color: white;
+}
+#bottomleftdown {
+  height: 47%;
+  width: 100%;
+  background-color: yellow;
+}
